@@ -936,9 +936,9 @@ class Product extends AbstractEntity
     }
 
     /**
-     * @return ProductType
+     * @return ProductType|null
      */
-    public function getProductType(): ProductType
+    public function getProductType(): ?ProductType
     {
         return $this->productType;
     }

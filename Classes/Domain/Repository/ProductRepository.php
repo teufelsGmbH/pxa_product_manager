@@ -299,8 +299,9 @@ class ProductRepository extends AbstractDemandRepository
                         \PDO::PARAM_STR
                     )
                 )
-            )
-            ->groupBy('tpppm.uid_local');
+            );
+            //bh: 03.04.2023: causes SQL Statement Error on filter categories
+            //->groupBy('tpppm.uid_local');
 
         return $subQuery->getSQL();
     }

@@ -119,7 +119,11 @@ class Product extends AbstractResource
             = (bool)$this->settings['listView']['includeEmptyAdditionalAttributes'] ?? false;
 
         foreach ($additionalAttributesList as $attributeIdentifier) {
-            $attributeValue = $this->entity->getAttributeValue()[$attributeIdentifier];
+
+            if(isset($attributeIdentifier)) {
+                $attributeValue = $this->entity->getAttributeValue()[$attributeIdentifier];
+            }
+            
             if (!empty($attributeValue)) {
                 $label = $attributeValue->getAttribute()->getLabel() ?? $attributeValue->getAttribute()->getName();
                 $resource[$attributeIdentifier] = [

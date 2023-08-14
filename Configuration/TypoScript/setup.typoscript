@@ -191,6 +191,22 @@ plugin.tx_pxaproductmanager {
                     key = fe.orderBy.tstamp_desc
                     value = tstamp,desc
                 }
+                40 {
+                    key = fe.orderBy.sorting_asc
+                    value = sorting,asc
+                }
+                50 {
+                    key = fe.orderBy.sorting_desc
+                    value = sorting,desc
+                }
+                60 {
+                    key = fe.orderBy.sku_asc
+                    value = sku,asc
+                }
+                70 {
+                    key = fe.orderBy.sku_desc
+                    value = sku,desc
+                }
             }
             # to include properties in list, add field names in list (usp,tax_rate)
             additionalFields =

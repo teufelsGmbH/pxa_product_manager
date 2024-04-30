@@ -243,6 +243,22 @@
             <trans-unit id="fe.orderBy.tstamp_desc">
                 <source>Date created</source>
             </trans-unit>
-        </body>
+			<trans-unit id="fe.orderBy.tstamp_desc">
+				<source>Date created</source>
+			</trans-unit>
+			<trans-unit id="fe.orderBy.sorting_asc">
+				<source>Sorting (Ascending)</source>
+			</trans-unit>
+			<trans-unit id="fe.orderBy.sorting_desc">
+				<source>Sorting (Descending)</source>
+			</trans-unit>
+			<trans-unit id="fe.orderBy.sku_asc">
+				<source>SKU (Ascending)</source>
+			</trans-unit>
+			<trans-unit id="fe.orderBy.sku_desc">
+				<source>SKU (Descending)</source>
+			</trans-unit>
+
+		</body>
     </file>
 </xliff>

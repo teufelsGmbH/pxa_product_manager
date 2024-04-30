@@ -242,6 +242,9 @@
 			<trans-unit id="flexform.sortby_sorting">
 				<source>Sorting</source>
 			</trans-unit>
+			<trans-unit id="flexform.sortby_sku">
+				<source>SKU</source>
+			</trans-unit>
 			<!--FlexForm:Sorting:END-->
 
 			<!--FlexForm:SingleView:START-->

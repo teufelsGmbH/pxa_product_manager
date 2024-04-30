@@ -20,11 +20,11 @@ $EM_CONF[$_EXTKEY] = [
     'state' => 'stable',
     'createDirs' => '',
     'clearCacheOnLoad' => true,
-    'version' => '11.0.16.1',
+    'version' => '12.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.6-11.5.99',
-            'demander' => '0.1.0-0.2.99'
+            'typo3' => '10.4.6-12.4.99',
+            'demander' => '0.1.0-0.3.99'
         ],
         'conflicts' => [],
         'suggests' => []
